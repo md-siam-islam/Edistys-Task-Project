@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.siam3 {
+  animation-name: img-anim3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 20;
+}
+@keyframes img-anim3 {
+  0%{
+    top:40px;
+    right:-40px;  
+  }
+  50%{
+      top:30px;
+      right:-40px; 
+  }
+ 100%{
+  top:40px;
+  right:-40px; 
+  }
+}
